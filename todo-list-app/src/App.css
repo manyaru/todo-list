@@ -1,0 +1,48 @@
+/* src/styles.css */
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.task-item.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+}
+
+.task-item h3 {
+  margin: 0;
+}
+
+.task-item p {
+  margin: 5px 0 10px;
+}
